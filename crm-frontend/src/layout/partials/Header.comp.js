@@ -3,7 +3,7 @@ import { Navbar,Nav,NavbarBrand } from 'react-bootstrap'
 const Header = () => {
   return (
     <Navbar collapseOnSelect bg="info" variant="dark" expand="md">
-      <NavbarBrand href="#home"><div>CRM System</div></NavbarBrand>
+      <Navbar.Brand href="#home" className='ms-auto'><div>CRM System</div></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">             
