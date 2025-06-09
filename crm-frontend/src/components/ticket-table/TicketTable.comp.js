@@ -1,6 +1,7 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 const TicketTable= ({tickets}) => {
+  
   return (
     
     <Table striped bordered hover responsive>
@@ -28,6 +29,7 @@ const TicketTable= ({tickets}) => {
             </tbody>
     </Table>
   )
+
 }
 
 export default TicketTable
