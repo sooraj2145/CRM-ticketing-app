@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from './partials/Header.comp'
 import Footer from './partials/Footer.comp'
-
-const DefaultLayout = ({children}) => {
+import { Outlet } from 'react-router-dom'
+const DefaultLayout = () => {
   return (
     <div className='default-layout'>
         <div className='header mb-2'>
       <Header />
     </div>
     <main className='main-content'>
-        {children}
+        {<Outlet />}
     </main>
     <footer className='footer'>
       <Footer />
