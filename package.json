@@ -4,17 +4,20 @@
   "description": "API for crm client side ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"start": "node app.js"
-    ,"dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Sooraj C",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "helmet": "^8.1.0",
+    "mongoose": "^8.15.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {

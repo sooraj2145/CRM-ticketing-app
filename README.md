@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# CRM Ticketing app
+# CRM Ticketing App
 
-#CRM client side API
-=======
-# CRM-ticketing-app
->>>>>>> 370c8e7ae1c221969670e9aa4901acfa87a74606
+This is my full-stack support ticketing system...
